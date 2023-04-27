@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/da94a75f9d.js" crossorigin="anonymous"></script>
+  <title>Lista de la compra</title>
+</head>
+
+<body>
+  <header class="nav-menu">
+    <h1 class="title">Lista de la compra</h1>
+    <nav class="nav-links">
+      <ul class="links-container">
+        <li class="link-item"><a href="" class="link">Principal</a></li>
+        <li class="link-item"><a href="" class="link">Lista</a></li>
+        <li class="link-item"><a href="" class="link">Acerca de</a></li>
+      </ul>
+    </nav>
+  </header>
+  <nav class="nav-bar">
+    <i class="fa-solid fa-circle-plus"></i>
+    <p class="items-basket">2/3 Comprados</p>
+  </nav>
+  <main class="main-container">
+    <form action="submit" class="list">
+      <fieldset>
+        <div class="list-container">
+          <input type="checkbox" id="bread" name="bread">
+          <label for="bread">Pan</label>
+          <p class="euro">0.75€</p>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="list-container">
+          <input type="checkbox" id="sugar" name="sugar">
+          <label for="sugar">Azucar</label>
+          <p class="euro"></p>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="list-container">
+          <input type="checkbox" id="milk" name="milk">
+          <label for="milk">Leche</label>
+          <p class="euro">1.20€</p>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="list-container">
+          <input type="checkbox" id="tofu" name="tofu">
+          <label for="tofu">Tofu</label>
+          <p class="euro">4.35€</p>
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </fieldset>
+      <hr>
+      <h4 class="total">6.3€</h4>
+    </form>
+  </main>
+</body>
+
+</html>
