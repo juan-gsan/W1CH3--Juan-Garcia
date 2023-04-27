@@ -86,3 +86,39 @@ body {
   display: block;
   margin-top: 10px;
 }
+
+.list fieldset {
+  border: 0;
+  font-size: 1.1rem;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-container i {
+  position: absolute;
+  right: 15px;
+}
+
+.list-container p {
+  position: absolute;
+  right: 30px;
+}
+
+hr {
+  background-color: black;
+}
+
+h4 {
+  position: absolute;
+  margin-top: 15px;
+  right: 15px;
+  font-size: 1.2rem;
+}
+
+.bread,
+.milk {
+  text-decoration: line-through;
+}
